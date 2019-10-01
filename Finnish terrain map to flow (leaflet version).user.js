@@ -29,5 +29,5 @@ var isMapreadyTimer;
 (function() {
     'use strict';
     isMapreadyTimer = setInterval(addCustomMap, 1000);
-    //var mapCanvasLeaflet = document.getElementById("mapCanvasLeaflet").style.height = "500px";
+    var mapCanvasLeaflet = document.getElementById("mapCanvasLeaflet").style.height = "500px";
 })();
